@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせページ</title>
+</head>
+
+<body>
+    <h1><img src="./image/title.png" alt="お問い合わせ"></h1>
+    <h2>お問い合わせフォーム</h1>
+        <ol>
+            <li>入会するには、次のフォームに必要事項を入力してください。</li>
+            <li>全項目必ず入力してください。</li>
+            <li>入力が出来たら“送信する”を押してください。</li>
+        </ol>
+        <form action="">
+            <table border="1">
+                <tr>
+                    <th><label for="name">名前</label></th>
+                    <td><input type="text" name="kanji" id="name"></td>
+                </tr>
+                <tr>
+                    <th><label for="kana">フリガナ</label></th>
+                    <td><input type="text" name="kana" id="kana"></td>
+                </tr>
+                <tr>
+                    <th><label for="company">会社名</label></th>
+                    <td><input type="text" name="company" id="company"></td>
+                </tr>
+                <tr>
+                    <th><label for="address">メールアドレス</label></th>
+                    <td><input type="email" name="mymail" id="address"></td>
+                </tr>
+                <tr>
+                    <th>ご用件</th>
+                    <td>
+                        <input type="checkbox" name="check" id="check01">
+                        <label for="check01">ご用件０１</label>
+                        <input type="checkbox" name="check" id="check02">
+                        <label for="check02">ご用件０２</label>
+                        <input type="checkbox" name="check" id="check03">
+                        <label for="check03">ご用件０３</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="text">備考</label></th>
+                    <td><textarea name="textarea" id="text"></textarea></td>
+                </tr>
+
+            </table>
+            <p>
+                <input type="submit" value="送信する">
+            </p>
+        </form>
+        <p>
+            不明点があれば、<a href="https://www.google.co.jp/">Google</a>で検索してください。
+        </p>
+</body>
+
+</html>
